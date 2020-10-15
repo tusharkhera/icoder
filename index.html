@@ -48,12 +48,45 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/icoder/support.html">Support us</a>
                 </li>
+				
+				        <html><head>
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <style>
+                    body {
+                      padding: 15px;
+                      background-color: white;
+                      color: black;
+                      font-size: 15px;
+                    }
+                    
+                    .dark-mode {
+                      background-color: black;
+                      color: white;
+                    }
+                    </style>
+                    </head>
+                    <body class="">
+                    
+                    <button onclick="myFunction()">Dark/Light Mode</button>
+                    
+                    <script>
+                    function myFunction() {
+                       var element = document.body;
+                       element.classList.toggle("dark-mode");
+                    }
+                    </script>
+                    
+                    </body></html>
+        
+		
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
+                     
+
     </nav>
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
